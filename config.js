@@ -1,5 +1,5 @@
 var configs = {};
-configs.applicationPort = 3000;
+configs.applicationPort = process.env.PORT||3000;
 configs.dbName = 'cross';
 configs.dbUser = 'cross';
 configs.dbPassword = 'cross';
