@@ -1957,7 +1957,7 @@ var environment = {
     production: false,
     hmr: false,
     // APP Variable per environment
-    endpoint: 'http://localhost:3000',
+    endpoint: '',
 };
 //# sourceMappingURL=environment.js.map
 
