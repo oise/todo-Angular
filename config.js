@@ -1,7 +1,11 @@
 var configs = {};
 configs.applicationPort = 3000;
-configs.dbName = 'CrossoverTodoAssignment';
-configs.dbHost = 'localhost';
-configs.dbPort = 27017;
+configs.dbName = 'cross';
+configs.dbUser = 'cross';
+configs.dbPassword = 'cross';
+configs.dbHost = 'ds231245.mlab.com';
+configs.dbPort = 31245;
 
 module.exports = configs;
+
+
